@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 794
+  Height = 441
+  Top = 290
+  Width = 288
+  Caption = 'Form1'
+  ClientHeight = 441
+  ClientWidth = 288
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 20
+    Top = 32
+    Width = 114
+    Caption = 'Enter coefficients'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 20
+    Top = 80
+    Width = 10
+    Caption = 'A'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Height = 20
+    Top = 128
+    Width = 9
+    Caption = 'B'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 48
+    Height = 20
+    Top = 184
+    Width = 9
+    Caption = 'C'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 80
+    Height = 28
+    Top = 80
+    Width = 100
+    TabOrder = 0
+    Text = '2'
+  end
+  object Edit2: TEdit
+    Left = 80
+    Height = 28
+    Top = 128
+    Width = 100
+    TabOrder = 1
+    Text = '7'
+  end
+  object Edit3: TEdit
+    Left = 80
+    Height = 28
+    Top = 184
+    Width = 100
+    TabOrder = 2
+    Text = '-30'
+  end
+  object Memo1: TMemo
+    Left = 48
+    Height = 104
+    Top = 240
+    Width = 206
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 48
+    Height = 31
+    Top = 368
+    Width = 94
+    Caption = 'Calc'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 160
+    Height = 31
+    Top = 368
+    Width = 94
+    Caption = 'Clear'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+end
