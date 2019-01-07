@@ -1,0 +1,158 @@
+object Form1: TForm1
+  Left = 403
+  Height = 314
+  Top = 148
+  Width = 583
+  Caption = 'Form1'
+  ClientHeight = 314
+  ClientWidth = 583
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object StringGrid1: TStringGrid
+    Left = 46
+    Height = 197
+    Top = 40
+    Width = 506
+    ColCount = 6
+    RowCount = 6
+    TabOrder = 0
+    Cells = (
+      36
+      0
+      0
+      '3'
+      0
+      1
+      '4'
+      0
+      2
+      '5'
+      0
+      3
+      '7'
+      0
+      4
+      '0'
+      0
+      5
+      '2'
+      1
+      0
+      '4'
+      1
+      1
+      '3'
+      1
+      2
+      '4'
+      1
+      3
+      '2'
+      1
+      4
+      '0'
+      1
+      5
+      '3'
+      2
+      0
+      '5'
+      2
+      1
+      '8'
+      2
+      2
+      '5'
+      2
+      3
+      '3'
+      2
+      4
+      '9'
+      2
+      5
+      '7'
+      3
+      0
+      '8'
+      3
+      1
+      '4'
+      3
+      2
+      '3'
+      3
+      3
+      '6'
+      3
+      4
+      '20'
+      3
+      5
+      '3'
+      4
+      0
+      '2'
+      4
+      1
+      '8'
+      4
+      2
+      '6'
+      4
+      3
+      '8'
+      4
+      4
+      '50'
+      4
+      5
+      '9'
+      5
+      0
+      '4'
+      5
+      1
+      '6'
+      5
+      2
+      '7'
+      5
+      3
+      '9'
+      5
+      4
+      '1'
+      5
+      5
+      '1'
+    )
+  end
+  object ButtonSwitch: TButton
+    Left = 46
+    Height = 31
+    Top = 248
+    Width = 94
+    Caption = 'Switch'
+    OnClick = ButtonSwitchClick
+    TabOrder = 1
+  end
+  object ButtonMirrorPrimary: TButton
+    Left = 232
+    Height = 31
+    Top = 248
+    Width = 126
+    Caption = 'Mirror primary'
+    OnClick = ButtonMirrorPrimaryClick
+    TabOrder = 2
+  end
+  object ButtonMirrorSecondary: TButton
+    Left = 424
+    Height = 31
+    Top = 248
+    Width = 126
+    Caption = 'Mirror secondary'
+    OnClick = ButtonMirrorSecondaryClick
+    TabOrder = 3
+  end
+end
