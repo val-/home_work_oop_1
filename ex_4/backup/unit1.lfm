@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 403
+  Height = 527
+  Top = 148
+  Width = 693
+  Caption = 'Form1'
+  ClientHeight = 502
+  ClientWidth = 693
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 502
+    Top = 0
+    Width = 693
+    Align = alClient
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    left = 56
+    top = 32
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      OnClick = MenuItem1Click
+      object MenuItem4: TMenuItem
+        Caption = 'Create'
+        OnClick = MenuItem4Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Open'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Save'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Save as ...'
+        OnClick = MenuItem7Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Exit'
+        OnClick = MenuItem8Click
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Font'
+      OnClick = MenuItem3Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'Text files|*.txt|All|*.*'
+    left = 152
+    top = 65
+  end
+  object SaveDialog1: TSaveDialog
+    Filter = 'Text files|*.txt|All|*.*'
+    left = 219
+    top = 80
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 311
+    top = 105
+  end
+end
